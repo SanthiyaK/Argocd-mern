@@ -1,18 +1,14 @@
-import React, { useEffect, useState } from "react";
+
 
 function App() {
-  const [message, setMessage] = useState("");
+ 
 
-  useEffect(() => {
-    fetch("http://localhost:5000/data ")
-      .then(res => res.text())
-      .then(data => setMessage(data));
-  }, []);
+
 
   return (
     <div>
-      <h1>React + Node + Mongo + Docker 🚀</h1>
-      <p>{message}</p>
+      <h1>React + Node  Docker 🚀</h1>
+     
     </div>
   );
 }
