@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: frontend-app
 spec:
-  project: nodejs-demo-project
+  project: default
   source:
     repoURL: 'https://github.com/SanthiyaK/Argocd-mern.git'
     path: frontend/k8s
